@@ -132,7 +132,7 @@ aboutTabs.forEach((tab) => {
         {
           id: 5,
           name: "Tailwind CSS",
-          icon: "assets/skills/Tailwind css.png",
+          icon: "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
         },
         {
           id: 6,
