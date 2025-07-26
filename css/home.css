@@ -141,7 +141,13 @@
   cursor: pointer;
   border: none;
   transition: all ease 0.3s;
-
+}
+.bottom button a{
+  color: var(--primary);
+  text-decoration: none;
+}
+.bottom button:hover a{
+  color: var(--white);
 }
 .bottom button:hover,.btn:hover{
   box-shadow:
