@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/services.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/projects.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <script src="./js/FontAwesome icon.js"></script>
+    <link rel="shortcut icon" href="./Assets/Fav icon.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+</head>
+
+<body>
+    <div class="main-container">
+
+        <!-- NAVABR -->
+        <header>
+            <div class="brand-info">
+                <!-- <img src="./Assest/logo.png" alt=""> -->
+                <h2>Portfolio</h2>
+            </div>
+
+            <div class="menu-area">
+                <input type="checkbox" id="menu-toggle" hidden>
+                <label for="menu-toggle" class="menu-icon">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+                <label for="menu-toggle" id="overlay"></label>
+
+                <nav>
+                    <a style="--i:1" data-tab="home" class="navlink active" href="#">Home</a>
+                    <a style="--i:2" data-tab="services" class="navlink " href="#">Services</a>
+                    <a style="--i:3" data-tab="about" class="navlink " href="#">About</a>
+                    <a style="--i:4" data-tab="projects" class="navlink " href="#">Projects</a>
+                    <a style="--i:5" data-tab="contact" class="navlink " href="#">Contact</a>
+                </nav>
+            </div>
+        </header>
+
+
+        <!-- HOME -->
+
+        <section id="home" class="content active ">
+            <div class="details">
+                <h2><span> Talal </span>Aslam</h2>
+                <h3>
+                    I`m
+                    <span id="typing-span"></span>
+                </h3>
+                <p>
+                    Hi, I’m Talal Aslam — a frontend webdevelper I created the lading pages and websites using HTML CSS
+                    JS AND react.
+                </p>
+                <div class="bottom">
+                    <button>Download CV</button>
+                    <div class="social-icons">
+                        <a target="_blank" href="https://www.instagram.com/ch.talalaslam/"><i class="ph ph-instagram-logo"></i></a>
+                        <a target="_blank" href="https://github.com/ChaudharyTalal"><i class="ph ph-github-logo"></i></a>
+                        <a target="_blank" href="https://www.linkedin.com/in/muhammad-talal-aslam-838b61367/"><i class="ph ph-linkedin-logo"></i></a>
+                        <a target="_blank" href="https://www.facebook.com/talal1chaudhary"><i style="font-size: 33px;" class="ph ph-facebook-logo"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="img-container">
+                <img src="./Assets/6660be64-b7e7-4fd8-86c4-90e22e2cfe79.png" title="Profile Picture"
+                    alt="Profile Picture">
+            </div>
+        </section>
+
+        <!--Services  -->
+        <section class="content " id="services">
+            <h2>My <span>Services</span></h2>
+            <div class="service-list">
+            </div>
+        </section>
+
+        <!-- ABout me -->
+        <section class="content" id="about">
+
+            <div class="sidebar">
+                <h3>Why Hire Me?</h3>
+                <p>I’m a passionate and experienced MERN stack developer who simplifies complex concepts. I deliver
+                    quality mentorship, clear teaching, and reliable websites tailored to client needs with full
+                    dedication and care.</p>
+                <div class="tabs">
+                    <span class=" tab" data-section="experience">Experience</span>
+                    <span class=" tab" data-section="education">Education</span>
+                    <span class=" tab" data-section="skills">Skills</span>
+                    <span class=" tab" data-section="about-me">About-Me</span>
+                </div>
+            </div>
+
+            <aside id="experience" class="tab-content">
+                <h2>My <span>Experience</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa sed pariatur non et reiciendis
+                    doloribus nostrum id facere aspernatur blanditiis?</p>
+
+                <div class="experience-list">
+
+                </div>
+            </aside>
+
+            <aside id="education" class="tab-content ">
+                <h2>My <span>Education</span></h2>
+                <p>Here are my educational qualifications that have built a strong foundation in technology,
+                    problem-solving, and continuous learning in web development.
+
+                <div class="education-list">
+
+                </div>
+                </p>
+            </aside>
+
+            <aside id="skills" class="tab-content ">
+                <h2>My <span>skills</span></h2>
+                <p>Here are the key skills I’ve mastered through hands-on experience, enabling me to build high-quality,
+                    scalable, and responsive web applications.
+                <div class="skill-list">
+
+                    </p>
+            </aside>
+
+            <aside id="about-me" class="tab-content ">
+                <h2>About <span>me</span></h2>
+
+                <p>I'm a passionate developer dedicated to building impactful digital experiences, blending creativity
+                    and code to solve real-world problems efficiently and effectively.</p>
+
+                <div class="my-info"></div>
+
+
+
+            </aside>
+
+        </section>
+
+        <!-- Projects -->
+        <section class="content" id="projects">
+
+            <div class="projects">
+
+            </div>
+        </section>
+
+
+
+
+        <section class="content " id="contact">
+
+            <div class="content-info">
+                <h2>Lets Works <span>Together</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quos quae pariatur tenetur inventore non
+                    eveniet.</p>
+                <div class="contact-media">
+                </div>
+
+            </div>
+            <form action="#" id="contact-form">
+                <fieldset>
+                    <legend><span>Contact</span>ME</legend>
+                    <div class="fields">
+                        <div>
+                            <label for="name">NAME</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your Name">
+                        </div>
+                        <div>
+                            <label for="Email">E-mail</label>
+                            <input type="text" name="Email" id="email" placeholder="Enter your E-mail">
+                        </div>
+                        <div>
+                            <label for="phone">Phone</label>
+                            <input type="tel" name="phone" id="phone" placeholder="Enter your Phone no.">
+                        </div>
+                        <div>
+                            <label for="message">Messgae</label>
+                            <textarea name="message" id="message" placeholder="Write your Message here" cols="30"
+                                rows="5"></textarea>
+                        </div>
+
+                    </div>
+                    <button type="submit" id="send-btn" class="btn">Submit</button>
+                </fieldset>
+            </form>
+
+        </section>
+
+
+    </div>
+
+
+
+    <script src="./js/script.js"></script>
+    <script src="./js/about.js"></script>
+    <script src="./js/projects.js"></script>
+    <script src="./js/contact.js"></script>
+    <script type="text/javascript">
+        (function () {
+            // https://dashboard.emailjs.com/admin/account
+            emailjs.init({
+                publicKey: "EJdUffMGdM280XEmC",
+            });
+        })();
+    </script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+</body>
+
+</html>
