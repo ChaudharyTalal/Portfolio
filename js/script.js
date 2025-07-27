@@ -78,6 +78,28 @@ navLinks.forEach((links) => {
               }
       });
       
+
+      // click on protfolio to show Home class
+      const brandHome = document.querySelector(".pol");
+brandHome.addEventListener("click", () => {
+  // Remove active from all nav links
+  navLinks.forEach((l) => l.classList.remove("active"));
+
+  // Set Home nav link active
+  const homeLink = document.querySelector('[data-tab="home"]');
+  if (homeLink) homeLink.classList.add("active");
+
+  // Show only the home section
+  tabs.forEach((tab) => {
+    tab.classList.toggle("active", tab.id === "home");
+  });
+
+});
+
+
+
+
+
     // Services      
      if (tabName === "services") {
   const serviceList = [

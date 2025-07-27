@@ -112,7 +112,7 @@ aboutTabs.forEach((tab) => {
         {
           id: 1,
           name: "HTML - Hyper Text Markup Language",
-          icon: "https://portfolio-phi-henna-72.vercel.app/assets/skills/html.png",
+          icon: "assets/skills/html.png",
         },
         {
           id: 2,
@@ -122,27 +122,27 @@ aboutTabs.forEach((tab) => {
         {
           id: 3,
           name: "JavaScript",
-          icon: "https://portfolio-phi-henna-72.vercel.app/assets/skills/js.png",
+          icon: "assets/skills/js.png",
         },
         {
           id: 4,
           name: "MongoDB",
-          icon: "https://portfolio-phi-henna-72.vercel.app/assets/skills/mongodb.png",
+          icon: "assets/skills/mongodb.png",
         },
         {
           id: 5,
           name: "Tailwind CSS",
-          icon: "https://icon.icepanel.io/Technology/svg/Tailwind-CSS.svg",
+          icon: "assets/skills/Tailwind css.png",
         },
         {
           id: 6,
           name: "Node JS",
-          icon: "https://portfolio-phi-henna-72.vercel.app/assets/skills/node.png",
+          icon: "assets/skills/node.png",
         },
         {
           id: 7,
           name: "React JS",
-          icon: "https://portfolio-phi-henna-72.vercel.app/assets/skills/react.png",
+          icon: "assets/skills/react.png",
         },
       ];
 

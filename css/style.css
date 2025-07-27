@@ -128,7 +128,9 @@ nav a{
 .content {
   display: none;
 }
-
+.pol{
+    cursor: pointer;
+}
 
 .content.active {
   display: block;
