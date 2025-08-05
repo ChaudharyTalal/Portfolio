@@ -64,9 +64,9 @@
     font-weight: 900;
 }
 .head-icons span i{
+    rotate: -45deg;
         font-size: 1.6rem;
         font-weight: 900;
-     rotate: -45deg;
 }
 .box h3{
     font-size: 1.7rem;
@@ -108,5 +108,4 @@
     font-style: 1.2rem;
 }
     
-
 }
