@@ -112,7 +112,7 @@ aboutTabs.forEach((tab) => {
         {
           id: 1,
           name: "HTML - Hyper Text Markup Language",
-          icon: "Assets/skills/html.png",
+          icon: "./Assets/skills/html.png",
         },
         {
           id: 2,
@@ -122,27 +122,27 @@ aboutTabs.forEach((tab) => {
         {
           id: 3,
           name: "JavaScript",
-          icon: "Assets/skills/js.png",
+          icon: "./Assets/skills/js.png",
         },
         {
           id: 4,
           name: "MongoDB",
-          icon: "Assets/skills/mongodb.png",
+          icon: "./Assets/skills/mongodb.png",
         },
         {
           id: 5,
           name: "Tailwind CSS",
-          icon: "Assets/skills/Tailwind css.png",
+          icon: "./Assets/skills/Tailwind css.png",
         },
         {
           id: 6,
           name: "Node JS",
-          icon: "Assets/skills/node.png",
+          icon: "./Assets/skills/node.png",
         },
         {
           id: 7,
           name: "React JS",
-          icon: "Assets/skills/react.png",
+          icon: "./Assets/skills/react.png",
         },
       ];
 
@@ -196,5 +196,4 @@ const myinfo=document.querySelector(".my-info")
       }
     }
   })
-
 }) 
