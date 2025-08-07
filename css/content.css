@@ -1,3 +1,7 @@
+
+*{
+    box-sizing: border-box;
+}
 #contact.content.active{
     display: grid;
     gap: 2rem;
@@ -111,7 +115,14 @@ input ,textarea{
     padding: 0.7rem;
     color: var(--white);
     border-radius: 5px;
-
+    border: 2px solid transparent !important;;
+}
+input:focus, textarea:focus{
+         box-shadow:
+     3px 3px 3px var(--green),
+     -3px 3px 3px var(--green),
+     3px -3px 3px var(--green),
+     -3px -3px 3px var(--green); 
 }
 input::placeholder,textarea::placeholder{
     color: var(--white);
